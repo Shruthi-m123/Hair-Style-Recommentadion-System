@@ -1,0 +1,10 @@
+import User_Input as img_path
+import User_Point as img_points
+ans=img_points.user_points(img_path.selected_file_path)
+##print(ans)
+import Code1 as pdt
+k=pdt.prediction(ans)
+##print(k)
+import variable as v
+v.shape1(k)
+%run app.py
